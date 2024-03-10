@@ -5,6 +5,8 @@ boto3
 mypy-boto3-s3
 flask-cors
 flask
+black
+colorama
 
 # YOLOv5 requirements
 # Base ----------------------------------------
