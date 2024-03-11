@@ -8,5 +8,6 @@
 - Activate virtual environment
 - Install requirements
 
+Data Validation complete
 
 

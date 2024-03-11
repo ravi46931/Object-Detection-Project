@@ -7,7 +7,7 @@ logs
 __pycache__/
 *.py[cod]
 *$py.class
-
+val.py
 # C extensions
 *.so
 

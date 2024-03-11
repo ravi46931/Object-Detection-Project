@@ -10,3 +10,12 @@ class DataIngestionConfig:
     )
     DATA_PATH: str = os.path.join(DATA_INGESTION_ARTIFACTS_DIR, FILE_NAME)
     EXTRACT_PATH_LOC: str = os.path.join(DATA_INGESTION_ARTIFACTS_DIR, EXTRACT_PATH)
+
+
+@dataclass
+class DataValidationConfig:
+    DATA_VALIDATION_ARTIFACTS_DIR: str = os.path.join(
+        ARTIFACTS_DIR, DATA_VALIDATION_ARTIFACTS_DIR
+    )
+    STATUS_PATH: str = os.path.join(DATA_VALIDATION_ARTIFACTS_DIR, DATA_VALIDATION_STATUS_FILE)
+    
